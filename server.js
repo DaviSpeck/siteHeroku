@@ -1,5 +1,7 @@
 const express = require('express')
 const app = express()
+const port = process.env.PORT || 3000;
+
 
 app.use('/public', express.static(__dirname + '/public'))
 
@@ -11,6 +13,6 @@ app.get('/home', (req, res) => {
     res.sendFile(__dirname + '/views/home.html')
 })
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('Server online')
 })
