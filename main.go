@@ -5,8 +5,8 @@ import (
 	"os"
 )
 
-func handler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("ola mundo!"))
+func index(w http.ResponseWriter, r *http.Request) {
+	http.ServeFile(w, r, "index.html")
 }
 
 func main() {
@@ -14,7 +14,7 @@ func main() {
 	if port == "" {
 		panic("$PORT not set")
 	}
-	http.HandleFunc("/", handler)
+	http.HandleFunc("/", index)
 	err := http.ListenAndServe(":"+port, nil)
 	if err != nil {
 		panic(err)
