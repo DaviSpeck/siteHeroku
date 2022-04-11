@@ -5,8 +5,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	// w.Write([]byte("ola mundo!"))
-	http.ServeFile(w, r, "./templates/index.html")
+	w.Write([]byte("ola mundo!"))
 }
 
 func main() {
