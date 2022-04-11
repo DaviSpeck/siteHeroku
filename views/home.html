@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.6.96/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="/public/css/styles_home.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="modal fade" id="modal-filme">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-hero">
+                    <img src="/public/img/logo_o_diabo_de_cada_dia.png">
+                    <div class="col-12 modal-hero-infos">
+                        <button class="btn btn-lg btn-custom-white">
+                            <span class="mdi mdi-play"></span>Assistir
+                        </button>
+                        <a href="#" class="btn-custom-round btn btn-lg btn-light rounded-circle">
+                            <span class="mdi mdi-play"></span>
+                        </a>
+                        <a href="#" class="btn-custom-round border-white btn btn-lg rounded-circle opacity-50">
+                            <span class="mdi mdi-thumb-up text-white"></span>
+                        </a>
+                        <a href="#" class="btn-custom-round border-white btn btn-lg rounded-circle opacity-50">
+                            <span class="mdi mdi-thumb-down text-white"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-infos">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-7">
+                                <p class="filme_descricao">Pregadores Profanos. Autoridades Corruptas. Amantes
+                                    Assassinos. Numa cidade cheia de pecadores, um jovem busca justiça.</p>
+                            </div>
+                            <div class="col-5">
+                                <p class="filme_elenco">
+                                    Elenco: <text>Silvio Sampaio, Juliana Righi, Omar Sampaio, Mikael Lopes.</text>
+                                    <br />
+                                    <br />
+                                    Gêneros: <text>Ação, Aventura, Dramático.</text>
+                                    <br />
+                                    <br />
+                                    Cenas e momentos: <text>Violentos.</text>
+                                </p>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-7">
+                                <h3 class="text-white">Episódios</h3>
+                            </div>
+                            <div class="col-5 text-right">
+                                <select class="form-control">
+                                    <option>Temporada 1</option>
+                                    <option>Temporada 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <ul id="lista_episodios">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">1</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="/public/img/capa_filme.png">
+                                        </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Nome do episódio</h6>
+                                            <p class="text-muted">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo
+                                                vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">2</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="/public/img/capa_filme.png">
+                                        </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Nome do episódio</h6>
+                                            <p class="text-muted">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo
+                                                vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">3</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="/public/img/capa_filme.png">
+                                        </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Nome do episódio</h6>
+                                            <p class="text-muted">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo
+                                                vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">4</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="/public/img/capa_filme.png">
+                                        </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Nome do episódio</h6>
+                                            <p class="text-muted">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo
+                                                vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-1 my-auto text-center">
+                                            <h3 class="text-white">5</h3>
+                                        </div>
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="/public/img/capa_filme.png">
+                                        </div>
+                                        <div class="col-7">
+                                            <h6 class="text-white">Nome do episódio</h6>
+                                            <p class="text-muted">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo
+                                                vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <header class="row">
+            <div class="col-2">
+                <img src="/public/img/logo_netflix.png">
+            </div>
+            <div class="col-8">
+                <ul class="menu_list">
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Séries</a>
+                    </li>
+                    <li>
+                        <a href="#">Filmes</a>
+                    </li>
+                    <li>
+                        <a href="#">Mais Recentes</a>
+                    </li>
+                    <li>
+                        <a href="#">Minha lista</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <div id="hero" class="container-fluid">
+        <div class="container">
+            <div class="row" id="hero_infos">
+                <div class="col-6">
+                    <img class="logo" src="/public/img/logo_o_diabo_de_cada_dia.png">
+                    <h1 class="text-white"><img src="/public/img/top10.png"> 1 de hoje no Brasil</h1>
+                    <p class="text-white">Pregadores Profanos. Autoridades Corruptas. Amantes Assassinos. Numa
+                        cidade
+                        cheia de pecadores, um jovem busca justiça.</p>
+                    <br />
+                    <button class="btn btn-lg btn-custom-white">
+                        <span class="mdi mdi-play"></span>Assistir
+                    </button>
+                    <button class="btn btn-lg btn-custom-translucent">
+                        <span class="mdi mdi-information-outline"></span>Mais Informações
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-content">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-white">Continuar assistindo como USUÁRIO</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <ul class="filme_lista">
+                    <li class="filme" data-toggle="modal" data-target="#modal-filme">
+                        <img class="img-fluid" src="/public/img/filmes/jane.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/lucifer.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/me-before-you.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/riverdale.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/la-casa-de-papel.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/breaking-bad.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/altered-carbon.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/maluco.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/rainha-do-sul.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/round-6.jpeg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/templarios.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/umbrella.png">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-white">Em alta</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <ul class="filme_lista">
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/jane.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/lucifer.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/me-before-you.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/riverdale.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/la-casa-de-papel.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/breaking-bad.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/altered-carbon.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/maluco.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/rainha-do-sul.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/round-6.jpeg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/templarios.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/umbrella.png">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-white">Lançamentos</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <ul class="filme_lista">
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/jane.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/lucifer.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/me-before-you.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/riverdale.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/la-casa-de-papel.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/breaking-bad.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/altered-carbon.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/maluco.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/rainha-do-sul.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/round-6.jpeg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/templarios.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/umbrella.png">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-white">Séries para maratonar</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <ul class="filme_lista">
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/jane.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/lucifer.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/me-before-you.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/riverdale.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/la-casa-de-papel.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/breaking-bad.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/altered-carbon.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/maluco.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/rainha-do-sul.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/round-6.jpeg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/templarios.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/umbrella.png">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-white">Para ver e relaxar</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <ul class="filme_lista">
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/jane.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/lucifer.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/me-before-you.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/riverdale.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/la-casa-de-papel.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/breaking-bad.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/altered-carbon.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/maluco.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/rainha-do-sul.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/round-6.jpeg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/templarios.jpg">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="/public/img/filmes/umbrella.png">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn-custom-round btn btn-light rounded-circle">
+                                    <span class="mdi mdi-play"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-up text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-thumb-down text-white"></span>
+                                </a>
+                                <a href="#" class="btn-custom-round border-white btn rounded-circle opacity-50">
+                                    <span class="mdi mdi-plus text-white"></span>
+                                </a>
+                            </div>
+                            <p>T3:EP5 <text>"Meu Episódio"</text></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+/* Formatações gerais */
+
+body {
+    background-color: black;
+}
+
+body.bg_filmes {
+    background-image: url(/public/img/background_login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding-top: 20px;
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.69) 0%,
+            rgba(0, 0, 0, 0) 100%);
+}
+
+header img {
+    width: 200px;
+}
+
+/* Formulário */
+
+#caixa_login {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.login {
+    background-color: #363636;
+    border-color: #363636;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 16px 20px 16px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    background-color: red;
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.fonte_15px {
+    font-size: 15px;
+}
+
+#logo_face {
+    width: 15px;
+    height: 20px;
+}
+
+#assinatura {
+    display: flex;
+    margin-top: -5px;
+}
+
+#protecao {
+    margin-top: -15px;
+}
+
+#protecao p {
+    font-size: 10px;
+}
